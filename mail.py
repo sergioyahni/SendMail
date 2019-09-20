@@ -25,7 +25,7 @@ parent = 'C:/ROOT_DIRECTORY/'
 def PostReport(defFile): 
     sender = 'USER@GMAIL.COM'
     password = 'PASSWORD'
-    recipient = ['EMAIL1@EMAIL.COM', 'EMAIL2@EMAIL.COM', 'EMAIL1@EMAIL.COM']
+    recipient = ['EMAIL1@EMAIL.COM', 'EMAIL2@EMAIL.COM', 'EMAIL3@EMAIL.COM']
     dateTimeObj = datetime.datetime.now()
     timeStampStr = dateTimeObj.strftime('%Y-%m-%d_%H%M%S')
     subject = 'SUBJECT' + timeStampStr
