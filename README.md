@@ -1,9 +1,11 @@
 # SendMail
 Use a GMAIL account to send mails. 
 import and initiate the Email class
+
 '''
 email = Email(sender_mail, password)
 '''
+
 Then send mail. 
 to is a mandatory key, all other keys are optionals. 
 
