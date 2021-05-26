@@ -2,7 +2,7 @@
 Use a GMAIL account to send mails. 
 import and initiate the Email class
 
-'''email = Email(sender_mail, password)'''
+**email = Email(sender_mail, password)**
 
 Then send mail using the send_mail method. Key "to" is a mandatory, all other keys are optionals. 
 
