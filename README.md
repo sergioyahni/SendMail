@@ -4,7 +4,7 @@ import and initiate the Email class
 
 **email = Email(sender_mail, password)**
 
-Send mail using the *simple* method: 
+Send mail using the *simple* method - all arguments are mandatory: 
 
 **email.simple("recipient", "mail subjec", "the body of your message")**
 
