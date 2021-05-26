@@ -7,7 +7,7 @@ Import and initiate the Email class
 
 Option 1: Send mail using the *simple* method - all arguments are mandatory: 
 
-**email.simple("recipient", "mail subjec", "the body of your message")**
+**email.simple("recipient's email", "email subject", "the body of the message")**
 
 Option 2: Send mail using the *send_mail* method. Key "to" is a mandatory, all other keys are optionals. 
 
