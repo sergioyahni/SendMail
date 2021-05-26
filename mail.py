@@ -6,10 +6,6 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-'''
-https://realpython.com/python-send-email/
-'''
-
 
 class Email:
     def __init__(self, email, password):
